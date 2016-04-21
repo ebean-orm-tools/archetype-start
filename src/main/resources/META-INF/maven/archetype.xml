@@ -1,0 +1,18 @@
+<archetype>
+  <id>ebean-start</id>
+  <allowPartial>true</allowPartial>
+  <sources>
+    <source>src/main/java/domain/BaseDomain.java</source>
+    <source>src/main/java/domain/Customer.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/ebean.properties</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/domain/CustomerTest.java</source>
+  </testSources>
+  <testResources>
+    <resource>src/test/resources/logback-test.xml</resource>
+    <resource>src/test/resources/test-ebean.properties</resource>
+  </testResources>
+</archetype>
